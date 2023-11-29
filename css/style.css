@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    width: 140px;
+    height: 100px;
+}
+.imgHome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    
+    height: 450px;
+} 
+.img-enc{
+    height: 450px;
+}
+.navegacionFlex{
+    margin-top: 15px;
+    border-bottom: 0.5px solid beige;
+    border-top:0.5px solid beige;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color:  white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image:linear-gradient(to right, #00060aa9, #0f010180),url("../assets/img/lamparas.jpg");
+    .contenedorLogoNav{
+        display: flex;
+        align-items: center;
+        .Logo{
+            width: 100px;
+        }   
+    }
+
+    .nav{
+       
+        .listaNav{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            border: 1px solid beige;
+            background-color: black;
+            
+            .listaItem{
+                padding: 15px ;
+                padding-left: 40px;
+                list-style: none;  
+            .linkNav{
+                text-decoration: none;
+            }
+            } 
+        }
+        
+    
+    }
+} 
+.nav{
+    background-color: black;
+    
+}
+.listaNav{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.linkNav{
+    text-decoration: none;
+    
+}
+
+h1{
+    color: orange;
+
+    /*comentario*/
+
+    /*para agregar colores tengo 3 opciones
+    
+    RGB
+    RGBA, tiene alfa que es la transparencia, alpha va de 1 a 0(100% de transparencia)
+    HEXADECIMAL
+    NOMBRE DE COLOR
+    */
+
+    color: rgb(56,98,21);
+
+} 
+
+.tituloPrincipal{
+    margin: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+}
+
+h2{
+    font-size: larger;
+    font-family:'Agbalumo';
+}
+
+
+.d-item{
+    height: 500px;
+}
+.d-img{
+    
+    filter: brightness(0.6);
+   height: 500px !important;
+} 
+.pad-img{
+    padding: 80px 120px 80px 120px;
+}
+
+
+.colorNav{
+    background-color:rgba(156, 156, 174, 0.767);
+}
+.colorWhite{
+    color: white;
+}
+.colorItem{
+    color:white;
+
+}
+.colorGold{
+    color: rgb(241, 220, 83);
+    color: rgba(218, 187, 50, 0.861);
+    
+}
+.imagen{
+  
+    height: 100px;
+}
+body{
+    background-color: black;
+}
+
+.h-img{
+    height: 300px !important;
+    border-bottom: 3px solid white;
+}
+.backg-white{
+    background-color: white;
+}
+.backg-gold{
+    background-image: linear-gradient(to right, #AE8625,#F7EF8A,#D2AC47, #EDC967);
+}
+.card{
+    border: 3px solid white;
+    background-image: linear-gradient(to right, #AE8625,#F7EF8A,#D2AC47, #EDC967);
+ }
+ .card-taller{
+    border: 3px solid white;
+    background-image:  linear-gradient(to right, #AE8625,#D2AC47, #EDC967);
+ }
+
+.btn-primary{
+    background-color: ghostwhite !important;
+}
+.btn{
+    width: 150px;
+}
+.p-pilates{
+    background-color:#EDC967;
+}
+.p-yoga{
+    border: 2px solid red;
+}
+.mapa{
+    margin-top: 150px;
+}
+.form-check{
+    margin:15px;
+}
+footer{
+    margin-top: 20px;
+    border-top: 0.5px solid beige;
+    background-image:linear-gradient(to right, #00060aa9, #0f010180),url("../assets/img/lamparas.jpg");
+    .padreWsp{
+        position: fixed;
+        bottom: 15px;
+        right: 35px;
+        .wsap{
+            color: green;
+            font-size: 5rem;
+        }
+    }
+}
+footer ul{
+    list-style-type: none;
+}
+footer nav ul li a{
+    text-decoration: none;
+}
+.footer-img{
+    height: 150px;
+} 
+
+/*ES DESKTOP FIRST, DISEÑO AHORA PARA MOBILE, desde la pantalla mas pequeña hasta la tablet*/
+@media screen and (min-width:0px) and (max-width:991px) {
+    .navegacionFlex{
+        flex-direction: column;
+        padding-left: 5px;
+        padding-right: 5px;
+        justify-content: left;
+        align-items: start;
+        padding-bottom: 5px;
+        padding-top: 10px;
+        
+        .contenedorLogoNav{
+            padding-left: 5px;           
+        }
+
+    } 
+    .nav{
+        .listaNav{
+            flex-wrap: wrap;
+            .listaItem{
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+        }
+    }
+}
