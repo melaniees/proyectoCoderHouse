@@ -1,0 +1,17 @@
+footer{
+    margin-top: 20px;
+    border-top: 0.5px solid beige;
+    background-image:linear-gradient(to right, #00060aa9, #0f010180),url("../assets/img/lamparas.jpg");
+    .padreWsp{
+        position: fixed;
+        bottom: 15px;
+        right: 35px;
+        .wsap{
+            color: green;
+            font-size: 5rem;
+        }
+    }
+    .footer-img{
+        height: 150px;
+    } 
+}

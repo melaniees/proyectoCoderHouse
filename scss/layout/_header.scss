@@ -1,0 +1,61 @@
+header{
+    .imgHome{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        object-fit: cover;
+        height: 450px;
+        .img-enc{
+            height: 450px;
+        }
+    }
+
+    .navegacionFlex{
+        margin-top: 15px;
+        border-bottom: 0.5px solid beige;
+        border-top:0.5px solid beige;
+        padding-left: 50px;
+        padding-right: 50px;
+        background-color:  white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-image:linear-gradient(to right, #00060aa9, #0f010180),url("../assets/img/lamparas.jpg");
+        .contenedorLogoNav{
+            display: flex;
+            align-items: center;
+            .Logo{
+                width: 100px;
+            }
+            .logo{
+                width: 140px;
+                height: 100px;
+            }   
+        }
+    
+        .nav{
+            background-color: black;
+            .listaNav{
+                margin: 0;
+                padding: 0;
+                display: flex;
+                border: 1px solid beige;
+                background-color: black;
+                list-style: none;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                
+                .listaItem{
+                    padding: 15px ;
+                    padding-left: 40px;
+                    list-style: none;  
+                .linkNav{
+                    text-decoration: none;
+                }
+                } 
+            }  
+        }
+    } 
+}

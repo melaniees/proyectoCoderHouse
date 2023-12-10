@@ -1,3 +1,11 @@
-h1{
-    color: red;
-}
+@import 'base/reset';
+@import 'layout/body';
+@import 'layout/header';
+@import 'base/fonts';
+@import 'layout/main';
+@import 'layout/footer';
+@import 'base/colors';
+@import 'components/carousel';
+@import 'components/card';
+@import 'components/form';
+@import 'components/botons';

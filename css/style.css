@@ -1,5 +1,138 @@
-h1 {
-  color: red;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+header .imgHome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+  height: 450px;
+}
+header .imgHome .img-enc {
+  height: 450px;
+}
+header .navegacionFlex {
+  margin-top: 15px;
+  border-bottom: 0.5px solid beige;
+  border-top: 0.5px solid beige;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to right, rgba(0, 6, 10, 0.662745098), rgba(15, 1, 1, 0.5019607843)), url("../assets/img/lamparas.jpg");
+}
+header .navegacionFlex .contenedorLogoNav {
+  display: flex;
+  align-items: center;
+}
+header .navegacionFlex .contenedorLogoNav .Logo {
+  width: 100px;
+}
+header .navegacionFlex .contenedorLogoNav .logo {
+  width: 140px;
+  height: 100px;
+}
+header .navegacionFlex .nav {
+  background-color: black;
+}
+header .navegacionFlex .nav .listaNav {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  border: 1px solid beige;
+  background-color: black;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+header .navegacionFlex .nav .listaNav .listaItem {
+  padding: 15px;
+  padding-left: 40px;
+  list-style: none;
+}
+header .navegacionFlex .nav .listaNav .listaItem .linkNav {
+  text-decoration: none;
+}
+
+main h1 {
+  margin: 30px;
+  font-family: Georgia;
+  color: white;
+  text-align: center;
+}
+main h2 {
+  font-size: larger;
+  font-family: "Agbalumo";
+}
+main h4 {
+  font-size: 1.5rem;
+}
+
+footer {
+  margin-top: 20px;
+  border-top: 0.5px solid beige;
+  background-image: linear-gradient(to right, rgba(0, 6, 10, 0.662745098), rgba(15, 1, 1, 0.5019607843)), url("../assets/img/lamparas.jpg");
+}
+footer .padreWsp {
+  position: fixed;
+  bottom: 15px;
+  right: 35px;
+}
+footer .padreWsp .wsap {
+  color: green;
+  font-size: 5rem;
+}
+footer .footer-img {
+  height: 150px;
+}
+
+.colorGold {
+  color: rgba(218, 187, 50, 0.861);
+}
+
+.colorItem {
+  color: white;
+}
+
+.colorWhite {
+  color: white;
+}
+
+.d-img {
+  filter: brightness(0.6);
+  height: 500px !important;
+}
+
+.pad-img {
+  padding: 80px 120px 80px 120px;
+}
+
+.card {
+  border: 3px solid white;
+  background-image: linear-gradient(to right, #AE8625, #F7EF8A, #D2AC47, #EDC967);
+}
+.card .h-img {
+  height: 300px !important;
+  border-bottom: 3px solid white;
+}
+
+.form-check {
+  margin: 15px;
+}
+
+.btn {
+  width: 150px;
 }
 
 /*# sourceMappingURL=style.css.map */
