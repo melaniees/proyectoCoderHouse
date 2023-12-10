@@ -109,6 +109,10 @@ footer .footer-img {
   color: white;
 }
 
+.backg-gold {
+  background-image: linear-gradient(to right, #AE8625, #F7EF8A, #D2AC47, #EDC967);
+}
+
 .d-img {
   filter: brightness(0.6);
   height: 500px !important;
@@ -125,6 +129,10 @@ footer .footer-img {
 .card .h-img {
   height: 300px !important;
   border-bottom: 3px solid white;
+}
+
+.card-taller {
+  background-image: linear-gradient(to right, #AE8625, #D2AC47, #EDC967);
 }
 
 .form-check {
