@@ -69,10 +69,6 @@ header .navegacionFlex .nav .listaNav .listaItem .linkNav {
   color: rgba(218, 187, 50, 0.861);
 }
 
-.colorItem {
-  color: white;
-}
-
 .colorWhite {
   color: white;
 }
@@ -117,7 +113,8 @@ main h4 {
   font-size: 1.5rem;
 }
 main .p-pilates {
-  background-color: #EDC967;
+  background-image: linear-gradient(to right, #AE8625, #D2AC47, #EDC967);
+  border: 2px solid white;
   transform: skew(1deg, 1deg);
 }
 main .p-yoga {

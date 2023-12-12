@@ -15,7 +15,8 @@ main{
         font-size: 1.5rem;
     }
     .p-pilates{
-        background-color:$dorado;
+        background-image:$bg-dorado;
+        border: 2px solid white;
         transform: skew(1deg, 1deg);
     }
     .p-yoga{

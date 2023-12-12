@@ -9,6 +9,6 @@
 
 .card-taller{
     @extend .card;
-    background-image: linear-gradient(to right, #AE8625,#D2AC47, #EDC967); 
+    background-image: $bg-dorado; 
 }
 
