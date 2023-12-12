@@ -65,38 +65,6 @@ header .navegacionFlex .nav .listaNav .listaItem .linkNav {
   text-decoration: none;
 }
 
-main h1 {
-  margin: 30px;
-  font-family: Georgia;
-  color: white;
-  text-align: center;
-}
-main h2 {
-  font-size: larger;
-  font-family: "Agbalumo";
-}
-main h4 {
-  font-size: 1.5rem;
-}
-
-footer {
-  margin-top: 20px;
-  border-top: 0.5px solid beige;
-  background-image: linear-gradient(to right, rgba(0, 6, 10, 0.662745098), rgba(15, 1, 1, 0.5019607843)), url("../assets/img/lamparas.jpg");
-}
-footer .padreWsp {
-  position: fixed;
-  bottom: 15px;
-  right: 35px;
-}
-footer .padreWsp .wsap {
-  color: green;
-  font-size: 5rem;
-}
-footer .footer-img {
-  height: 150px;
-}
-
 .colorGold {
   color: rgba(218, 187, 50, 0.861);
 }
@@ -113,6 +81,81 @@ footer .footer-img {
   background-image: linear-gradient(to right, #AE8625, #F7EF8A, #D2AC47, #EDC967);
 }
 
+@media screen and (min-width: 0px) and (max-width: 991px) {
+  .navegacionFlex {
+    flex-direction: column;
+    padding-left: 5px;
+    padding-right: 5px;
+    justify-content: left;
+    align-items: start;
+    padding-bottom: 5px;
+    padding-top: 10px;
+  }
+  .navegacionFlex .contenedorLogoNav {
+    padding-left: 5px;
+  }
+  .nav .listaNav {
+    flex-wrap: wrap;
+  }
+  .nav .listaNav .listaItem {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+main h1 {
+  margin: 30px;
+  font-family: Georgia;
+  color: white;
+  text-align: center;
+}
+main h2 {
+  font-size: larger;
+  font-family: "Agbalumo";
+  padding-bottom: 15px;
+}
+main h4 {
+  font-size: 1.5rem;
+}
+main .p-pilates {
+  background-color: #EDC967;
+  transform: skew(1deg, 1deg);
+}
+main .p-yoga {
+  border: 2px solid red;
+}
+
+footer {
+  margin-top: 20px;
+  border-top: 0.5px solid beige;
+  background-image: linear-gradient(to right, rgba(0, 6, 10, 0.662745098), rgba(15, 1, 1, 0.5019607843)), url("../assets/img/lamparas.jpg");
+}
+footer .padreWsp {
+  position: fixed;
+  z-index: 999;
+  border-radius: 50% 50% 50%;
+  bottom: 20px;
+  right: 25px;
+  padding: 5px;
+  animation-name: wsp;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+footer .padreWsp .wsap {
+  color: green;
+  font-size: 5rem;
+}
+footer .footer-img {
+  height: 150px;
+}
+
+@keyframes wsp {
+  0% {
+    transform: scale(1, 1) rotate(0deg);
+  }
+  100% {
+    transform: scale(0.85, 0.85) rotate(5deg);
+  }
+}
 .d-img {
   filter: brightness(0.6);
   height: 500px !important;
@@ -122,11 +165,11 @@ footer .footer-img {
   padding: 80px 120px 80px 120px;
 }
 
-.card {
+.card, .card-taller {
   border: 3px solid white;
   background-image: linear-gradient(to right, #AE8625, #F7EF8A, #D2AC47, #EDC967);
 }
-.card .h-img {
+.card .h-img, .card-taller .h-img {
   height: 300px !important;
   border-bottom: 3px solid white;
 }
@@ -141,6 +184,10 @@ footer .footer-img {
 
 .btn {
   width: 150px;
+}
+
+.btn-secondary:hover {
+  background-color: red;
 }
 
 /*# sourceMappingURL=style.css.map */
