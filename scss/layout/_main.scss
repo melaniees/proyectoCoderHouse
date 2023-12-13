@@ -22,4 +22,10 @@ main{
     .p-yoga{
         border: 2px solid red;
     }
+    @mixin alto($height){
+        height: $height;
+    }
+    .h-horarios{
+        @include alto(20px);
+    }
 }

@@ -77,7 +77,7 @@ header .navegacionFlex .nav .listaNav .listaItem .linkNav {
   background-image: linear-gradient(to right, #AE8625, #F7EF8A, #D2AC47, #EDC967);
 }
 
-@media screen and (min-width: 0px) and (max-width: 991px) {
+@media screen and (min-width: 320px) and (max-width: 991px) {
   .navegacionFlex {
     flex-direction: column;
     padding-left: 5px;
@@ -120,11 +120,20 @@ main .p-pilates {
 main .p-yoga {
   border: 2px solid red;
 }
+main .h-horarios {
+  height: 20px;
+}
 
 footer {
   margin-top: 20px;
   border-top: 0.5px solid beige;
   background-image: linear-gradient(to right, rgba(0, 6, 10, 0.662745098), rgba(15, 1, 1, 0.5019607843)), url("../assets/img/lamparas.jpg");
+}
+footer .w-facebook {
+  width: 40px;
+}
+footer .w-instagram {
+  width: 45px;
 }
 footer .padreWsp {
   position: fixed;
