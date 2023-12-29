@@ -77,6 +77,14 @@ header .navegacionFlex .nav .listaNav .listaItem .linkNav {
   background-image: linear-gradient(to right, #AE8625, #F7EF8A, #D2AC47, #EDC967);
 }
 
+.backg-horario {
+  background-image: linear-gradient(to right, #AE8625, #F7EF8A, #D2AC47, #EDC967);
+}
+
+.backg-white {
+  background-color: white;
+}
+
 @media screen and (min-width: 320px) and (max-width: 991px) {
   .navegacionFlex {
     flex-direction: column;
@@ -100,17 +108,41 @@ header .navegacionFlex .nav .listaNav .listaItem .linkNav {
 }
 main h1 {
   margin: 30px;
-  font-family: Georgia;
+  padding-top: 45px;
+  font-family: "Carattere", cursive;
   color: white;
   text-align: center;
+  font-size: 4rem;
 }
 main h2 {
-  font-size: larger;
+  font-size: 1.7rem;
   font-family: "Agbalumo";
   padding-bottom: 15px;
+  padding-top: 45px;
 }
 main h4 {
   font-size: 1.5rem;
+  font-family: Georgia;
+  padding: 25px;
+}
+main .title-horario {
+  font-size: 2rem;
+  font-family: "Carattere", cursive;
+  font-style: italic;
+  padding: 20px;
+}
+main .title-beneficios {
+  font-size: 2rem;
+  font-family: "Agbalumo";
+  font-style: italic;
+  padding: 15px;
+}
+main .card-title {
+  font-family: Georgia;
+}
+main .font-p {
+  font-family: Georgia;
+  font-size: 1.3rem;
 }
 main .p-pilates {
   background-image: linear-gradient(to right, #AE8625, #D2AC47, #EDC967);
@@ -127,6 +159,8 @@ main .h-horarios {
 footer {
   margin-top: 20px;
   border-top: 0.5px solid beige;
+  align-items: center;
+  align-content: center;
   background-image: linear-gradient(to right, rgba(0, 6, 10, 0.662745098), rgba(15, 1, 1, 0.5019607843)), url("../assets/img/lamparas.jpg");
 }
 footer .w-facebook {
@@ -151,7 +185,7 @@ footer .padreWsp .wsap {
   font-size: 5rem;
 }
 footer .footer-img {
-  height: 150px;
+  height: 100px;
 }
 
 @keyframes wsp {
@@ -182,6 +216,7 @@ footer .footer-img {
 
 .card-taller {
   background-image: linear-gradient(to right, #AE8625, #D2AC47, #EDC967);
+  height: 500px !important;
 }
 
 .form-check {

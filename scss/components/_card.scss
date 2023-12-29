@@ -10,5 +10,6 @@
 .card-taller{
     @extend .card;
     background-image: $bg-dorado; 
+    height: 500px!important;
 }
 

@@ -1,6 +1,8 @@
 footer{
     margin-top: 20px;
     border-top: 0.5px solid beige;
+    align-items: center;
+    align-content: center;
     background-image:linear-gradient(to right, #00060aa9, #0f010180),url("../assets/img/lamparas.jpg");
     @mixin ancho($width){
         width: $width;
@@ -27,7 +29,7 @@ footer{
         }
     }
     .footer-img{
-        height: 150px;
+        height: 100px;
     } 
 }
 @keyframes wsp{

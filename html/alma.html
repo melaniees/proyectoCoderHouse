@@ -18,6 +18,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
   </head>
   <body>
         <!--cabecera HOME-->
@@ -55,15 +59,15 @@
         <!--Etiqueta MAIN donde estan los contenidos principales-->
         <main>
             <div class="container py-4">
-                <h1 class="letraTitulo colorWhite tituloPrincipal mt-5">Yoga</h1>
+                <h1 class="letraTitulo colorWhite tituloPrincipal mt-5 animate__animated animate__swing">Yoga</h1>
                 <h2 class="text-white">¿Qué es?</h2>
-                <div class="p-yoga p-3 rounded text-white">
-                    <p> Es una práctica que conecta el cuerpo, la respiración y la mente. Esta práctica utiliza posturas físicas, ejercicios de respiración y meditación para mejorar la salud general.</p>
+                <div class="p-yoga p-3 rounded text-white text-center mt-5">
+                    <p class="font-p"> Es una práctica que conecta el cuerpo, la respiración y la mente utilizando posturas físicas, ejercicios de respiración y meditación para mejorar la salud general.</p>
                 </div>
             </div>
 
-            <section class="container-fluid">
-                <div class="row">
+            <section class="container-fluid mt-5">
+                <div class="row mb-3">
                     <!--Breakpoints | xs,sm,md,lg,xl-->
                     <div class="colsm12 col-md-8 col-lg-6">
                         <img src="../assets/img/terapeutico.jpg" class="colorWhite" alt="Yoga terapéutico" height="100%" width="100%">
@@ -82,7 +86,7 @@
                         Este tipo de yoga se centra en los asanas y en la pranayama, o respiración. Esta modalidad es ideal para aquellos que quieran iniciarse en la práctica del yoga, ya que en estas clases se introducen los fundamentos del yoga, así como las posturas (asanas) y el pranayama. </p>
                     </div>
                     <div class="colsm12 col-md-4 col-lg-6">
-                        <img src="../assets/img/hatha.jpeg" class="colorWhite" alt="Hatha Yoga" width="100%" height="80%">
+                        <img src="../assets/img/hatha.jpeg" class="colorWhite" alt="Hatha Yoga" width="100%" height="100%">
                     </div>
                 </div>
             </section>
@@ -90,8 +94,13 @@
           <!--HORARIOS-->
             
            <div class="container col">
-            <h4 class="text-white text-center mb-5">Horarios</h4>
-            <img src="../assets/img/horarioYoga.png" class="colorWhite img-fluid p-5" alt="Horarios de yoga">
+            <div class="backg-horario mt-5">
+              <h5 class=" text-center title-horario">Horarios</h5>
+            </div>
+            <div class="w-75 mx-auto">
+              <img src="../assets/img/horarioYoga.png" class="colorWhite img-fluid p-5" alt="Horarios de yoga">
+            </div>
+            
            </div>
             
         </main>
@@ -99,30 +108,30 @@
         <!--FOOTER-->
         <footer class="mt-5">
           <div class="container-fluid">
-            <div class="row p-5  text-white">
-              <div class="col-xs-12 col-md-4 col-lg-2 mb-3">
+            <div class="row p-5  text-white justify-content-center align-items-center">
+              <div class="col-xs-12 col-md-4 col-lg-2 mb-3 text-center">
                 <img src="../assets/img/logoenc.jpg" class="footer-img colorWhite" alt="Logo enciende tu luz">
               </div>
-              <div class="col-xs-12 col-md-4 col-lg-3 mb-3">
+              <div class="col-xs-12 col-md-4 col-lg-3 mb-3 text-center">
                 <a href="../index.html" class="text-white text-decoration-none">Inicio</a>
               </div>
-              <div class="col-xs-12 col-md-4 col-lg-3 mb-3">
+              <div class="col-xs-12 col-md-4 col-lg-3 mb-3 text-center">
                 <a href="./contacto.html" class="text-white text-decoration-none">Contacto</a>
               </div>
-              <div class="col-xs-12 col-md-6 col-lg-2 mb-3">
+              <div class="col-xs-12 col-md-6 col-lg-2 mb-3 text-center">
                 <a href="https://www.facebook.com/" target="_blank">
                   <img src="../assets/img/facebook.png" class="colorWhite w-facebook" alt="Facebook">
                 </a>
                 
               </div>
-              <div class="col-xs-12 col-md-6 col-lg-2 mb-3">
+              <div class="col-xs-12 col-md-6 col-lg-2 mb-3 text-center">
                 <a href="https://www.instagram.com/" target="_blank">
                   <img src="../assets/img/instagram.png"  class="colorWhite w-instagram"" alt="Instagram">
                 </a>
               </div>
             </div>
           <div class="col-xs-12">
-            <p class="text-white text-center">Copyright - All rights reserved © 2023</p>  
+            <p class="text-white text-center p-3">Copyright - All rights reserved © 2023</p>  
           </div>
           </div>
             <div class="padreWsp">

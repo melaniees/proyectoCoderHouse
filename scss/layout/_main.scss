@@ -1,18 +1,42 @@
 main{
     h1{
         margin: 30px;
+        padding-top: 45px;
         font-family:$font-familyH1;
         color: white;
         text-align: center;
+        font-size: 4rem;
     }
     h2{
-        font-size: larger;
+        font-size: 1.7rem;
         font-family: $font-familyH2;
         padding-bottom: 15px;
+        padding-top: 45px;
         
     }
     h4{
         font-size: 1.5rem;
+        font-family: $font-familyH4;
+        padding: 25px;
+    }
+    .title-horario{
+        font-size: 2rem;
+        font-family: $font-familyH1;
+        font-style: italic;
+        padding: 20px;
+    }
+    .title-beneficios{
+        font-size: 2rem;
+        font-family: $font-familyH2;
+        font-style: italic;
+        padding: 15px;
+    }
+    .card-title{
+        font-family:$font-familyH4;
+    }
+    .font-p{
+        font-family:$font-familyH4;
+        font-size: 1.3rem;
     }
     .p-pilates{
         background-image:$bg-dorado;
